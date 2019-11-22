@@ -1,5 +1,5 @@
 R Code and Output
-#Time series analysis of female
+#Time series analysis of female unemp
 #Plot data
 time_unemp=ts(data = unemp_f$Unemployment, start = c(1948, 1), end=c(1981, 12),
               frequency = 12)
